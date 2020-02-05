@@ -1,0 +1,16 @@
+<svg id="Componente_21_19" data-name="Componente 21 – 19" xmlns="http://www.w3.org/2000/svg" width="114" height="114" viewBox="0 0 114 114">
+  <g id="Grupo_41" data-name="Grupo 41" transform="translate(0 12)">
+    <circle id="Elipse_9" data-name="Elipse 9" cx="57" cy="57" r="57" transform="translate(0 -12)" fill="#0f50fb"/>
+    <g id="Grupo_308" data-name="Grupo 308" transform="translate(7.943 14.42)">
+      <g id="Grupo_301" data-name="Grupo 301" transform="translate(0.057 4.58)">
+        <g id="Grupo_39" data-name="Grupo 39" transform="translate(0 0)">
+          <g id="Grupo_41-2" data-name="Grupo 41" transform="translate(0)">
+            <text id="Por_apenas" data-name="Por apenas" fill="#fff" font-size="16" font-family="Raleway-Regular, Raleway"><tspan x="0" y="15">Por apenas</tspan></text>
+            <text id="mensais" transform="translate(26 42)" fill="#fff" font-size="16" font-family="Raleway-Regular, Raleway"><tspan x="0" y="15">mensais</tspan></text>
+            <text id="R_64_00" data-name="R$ 64,00" transform="translate(0 17)" fill="#fff" font-size="16" font-family="Raleway-Medium, Raleway" font-weight="500"><tspan x="0" y="23">R$</tspan><tspan y="23" font-size="22"> </tspan><tspan y="23" font-size="24">64,00</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

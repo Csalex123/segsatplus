@@ -1,234 +1,569 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-NG3NR2K');
+    </script>
+    <!-- End Google Tag Manager -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SEGSAT</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/glider.min.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 </head>
+
 <body>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NG3NR2K"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
 
     <!-- Cabeçalho -->
     <section class=" txt-center">
         <header class="section-header txt-center">
-                 <img src="images/logo_segsat.png" alt="" srcset="">
+            <img src="images/logo_segsat.png" alt="Logo" srcset="">
         </header>
     </section>
 
     <!-- Section 1 -->
-    
+
     <section>
 
         <div class="div-content-left">
             <div class="div-titulo txt-center ">
-                        <h1 class="titulo">Rastreamento seguro e eficiente é na Segsat</h1>
-                        <p>com <span style="font-weight: bold;">95%</span> de taxa de recuperação de veículos</p>
+                <h1 class="titulo-section-1">Rastreamento seguro e eficiente é na Segsat</h1>
+                <p>com <span style="font-weight: bold; font-size: 22px;">95%</span> de taxa de recuperação de veículos</p>
             </div>
-        </div>    
-            <div class="section-1">
-                <div style="padding-bottom: 40px;" >
-                    <div class="div-children-section-1">
-                        <div class="option-service">
-                            <div>
-                                <img src="images/moto2.svg" alt="FOTO - MOTO">
-                                <p>Equipe própria de <br> resgate 24h</p>
-                            </div>
-
-                            <div>
-                                <img class="carro-1" src="images/carro1.svg" alt="FOTO - CARRO">
-                                <p>Instalação sem<br> perda de garantia</p>
-                            </div>
-
-                            <div><img src="images/caminhao1.svg" alt="FOTO - CAMINHAO" style="margin-top: -15px;">
-                                <p style="margin-left: 10px;">Socorro Auto 24h</p>
-                            </div>
+        </div>
+        <div class="section-1">
+            <div style="padding-bottom: 40px;">
+                <div class="div-children-section-1">
+                    <div class="option-service">
+                        <div>
+                            <img data-toggle="tooltip" data-placement="bottom" title="Em caso de desencontros você pode contar com nossa equipe 
+                                de resgate, que encontra seu veículo e devolve ele pra você." src="images/moto2.svg"
+                                alt="FOTO - MOTO">
+                            <p>Equipe própria de <br> resgate 24h</p>
                         </div>
-                        
-                        <br>
-                        <div class="txt-center">
-                            <img src="images/carro-map.svg" alt="">
+
+                        <div>
+                            <img data-toggle="tooltip" data-placement="bottom" title="Instalação feita em concessionárias automotivas, 
+                                mantendo a garantia do seu veículo." class="carro-1" src="images/carro1.svg"
+                                alt="FOTO - CARRO">
+                            <p>Instalação sem<br> perda de garantia</p>
                         </div>
-                        <div class="div-button txt-center">    
-                            <div>
+
+                        <div>
+                            <img data-toggle="tooltip" data-placement="bottom" title="Em caso de situações desagradáveis como: furou o pneu, perdeu a chave ou acabou o combustível, 
+                                nosso Socorro Auto 24h resolve, com cobertura nacional." src="images/caminhao1.svg"
+                                alt="FOTO - CAMINHAO" style="margin-top: -15px;">
+                            <p style="margin-left: 10px;">Socorro Auto 24h</p>
+                        </div>
+                    </div>
+
+                    <br>
+                    <div class="txt-center">
+                        <img src="images/carro-map.svg" alt="">
+                    </div>
+                    <div class="div-button txt-center">
+                        <div>
+                            <a href="#formulario">
                                 <button class="button-1">Saiba Mais</button>
-                            </div>
-                            <div>
-                                <button class="button-2">Contrate agora</button>
-                            </div> 
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://segsat.com/contrate/">
+                                <button class="button-2" type="button">Contrate agora</button>
+                            </a>
                         </div>
                     </div>
                 </div>
-   
-                <div class="div-formulario">
-                        <div class="card">
-                            <div>
-                                <h1 class="txt-center">Cadastre-se e entraremos em contato agora</h1>
-                                <p class="txt-center">A gente tira as suas dúvidas</p>
-                                <form action="">
-                                    <div class="distance-bottom">
-                                        <label for="nome">Nome*</label><br>
-                                        <input id="nome" required class="input-txt"  type="text" placeholder="Digite o seu nome">
+            </div>
+
+            <div class="div-formulario" id="formulario">
+                <div class="card">
+                    <div>
+                        <h1 class="txt-center titulo-form-section-1">Cadastre-se e entraremos em contato agora</h1>
+                        <p class="txt-center">A gente tira as suas dúvidas</p>
+                        <form method="post" id="form-envio">
+                            <div class="distance-bottom">
+                                <label for="nome">Nome*</label><br>
+                                <input id="nome" required class="input-txt" name="nome" type="text"
+                                    placeholder="Digite o seu nome">
+                            </div>
+
+                            <div class="distance-bottom">
+                                <label for="email">Email*</label><br>
+                                <input name="email" class="input-txt" id="email" style="width: 100%;" required
+                                    class="distance-bottom" type="email" placeholder="Digite o seu número">
+                            </div>
+
+                            <div class="distance-bottom">
+                                <div class="grid-campos">
+                                    <div style="width: 50%">
+                                        <label for="Estado">Estado*</label><br>
+                                        <select name="estado" id="Estado" required class="input-txt"
+                                            style="height: 31px ;">
+                                            <option value="" disabled selected>Seu Estado</option>
+                                        </select>
                                     </div>
 
-                                    <div class="distance-bottom">
-                                            <label for="email">Email*</label><br>
-                                            <input name="email" class="input-txt" style="width: 100%;" required class="distance-bottom" type="email" placeholder="Digite o seu número">
+                                    <div class="cidade" style="width: 50%">
+                                        <label for="Cidade">Cidade*</label><br>
+                                        <select name="cidade" id="Cidade" required class="input-txt"
+                                            style="height: 31px ;">
+                                            <option value="" disabled selected>Sua Cidade</option>
+                                        </select>
                                     </div>
-        
-                                    <div class="distance-bottom">
-                                        <div class="grid-campos">
-                                            <div  style="width: 50%">
-                                                <label for="email">Estado*</label><br>
-                                                <select name="estado" id="Estado" required class="input-txt" style="height: 31px ;">
-                                                    <option value="" disabled selected>Seu Estado</option>
-                                                </select>   
-                                            </div>
-        
-                                            <div class="cidade" style="width: 50%">
-                                                <label for="email">Cidade*</label><br>
-                                                <select name="cidade" id="Cidade" required class="input-txt" style="height: 31px ;">
-                                                    <option value="" disabled selected>Sua Cidade</option>
-                                                </select>   
-                                            </div>
-                                        </div>
-                                    </div>
-        
-                                    <div class="distance-bottom">
-                                        <div class="grid-campos">
-                                                <div style="width: 63%;">
-                                                    <label for="whatsapp">Whatsapp*</label><br>
-                                                    <input type="text" name="whatsapp" id="whatsapp" class="input-txt" style="width: 100%;" required class="distance-bottom" type="number" placeholder="Digite o seu número">
-                                                </div>
-                
-                                                <div class="botao"><br>
-                                                    <button type="submit" class="btn-enviar">Enviar</button>
-                                                </div>
-                                        </div>
-                                    </div>
-        
-                                    <div>
-                                        <p class="txt-center">ou se preferir fala com a gente</p>
-                                    </div>
-        
-                                    <div>
-                                        <a href="tel:558140209333"><button class="btn-phone" type="button"><i class="fa fa-phone"></i> 4020.9333</button></a>
-                                        <button class="btn-whatsapp fl-right"><i class="fa fa-whatsapp"></i> Whatsapp</button> 
-                                    </div>
-                                    
-                                </form>
+                                </div>
                             </div>
-                        </div>
-        
+
+                            <div class="distance-bottom">
+                                <div class="grid-campos">
+                                    <div style="width: 63%;">
+                                        <label for="whatsapp">Whatsapp*</label><br>
+                                        <input type="text" name="whatsapp" id="whatsapp" class="input-txt"
+                                            style="width: 100%;" required class="distance-bottom" type="number"
+                                            placeholder="Digite o seu número">
+                                    </div>
+
+                                    <div class="botao"><br>
+                                        <button type="submit" class="btn-enviar">Enviar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="msg">
+
+                            </div>
+                        </form>
+                            <div>
+                                <p class="txt-center">ou se preferir fala com a gente</p>
+                            </div>
+
+                            <div>
+                                <a href="tel:40209333"><button class="btn-phone" type="button"><i
+                                            class="fa fa-phone"></i> 4020.9333</button></a>
+                                <a
+                                    href="https://wa.me/558192935974?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20servi%C3%A7o%20de%20rastreio%20da%20SEGSAT">
+                                    <button type="button" class="btn-whatsapp fl-right">
+                                        <i class="fa fa-whatsapp"></i> Whatsapp</button>
+                                </a>
+                            </div>
+
+
                     </div>
+                </div>
+
             </div>
-        
-            
+        </div>
+
+
         </div>
     </section>
 
     <!-- Section 2 -->
-    <section class="section-2 " >
-            <h1 class="titulo txt-center  div-titulo" id="titutlo-services" style="width: 700px;">Segsat sempre perto de você e sua família.</h1>
-            <p class="txt-center subtitulo-sec-2" style="margin: 0 auto; margin-bottom: 100px; line-height: 35px; max-width: 400px; font-weight: 600;">Localize, acompanhe e bloqueie o seu  veículo com toda a segurança.</p>
-        </div>   
+    <section class="section-2">
+        <h1 class="titulo txt-center  div-titulo" id="titutlo-services" style="width: 700px;">Segsat sempre perto de
+            você e sua família.</h1>
+        <p class="paragrafo-section-2">Localize, acompanhe e bloqueie o seu veículo com toda a segurança.</p>
+
 
         <div class="div-section-3">
-            <div>
-                <img src="images/telefone.svg" alt="">
+            <div style="margin-bottom: 30px;">
+                <img src="images/telefone.png" alt="Telefone">
             </div>
-            <div>
-                <div class="div-section-3">
-                    <div class="card-section-3">
-                        <img src="images/celular2.svg" alt="Celular" class="fl-left">
-                        <p class="txt-center">Em caso de desencontros nossa equipe de resgate está de prontidão para localizar seu veículo e trazer ele de volta, tendo 95% de taxa de recuperação com carro passeio.</p>
+
+            <div class="container-div-section-3">
+                <div>
+                    <div class="div-section-3">
+                        <div class="card-section-3">
+                            <img src="images/celular2.svg" alt="Celular" class="fl-left">
+                            <p class="txt-center">Em caso de desencontros nossa equipe de resgate está de prontidão para
+                                localizar seu veículo e trazer ele de volta, tendo 95% de taxa de recuperação com carro
+                                passeio.</p>
+                        </div>
+                        <div class="card-section-3">
+                            <img src="images/celular3.svg" alt="Celular" class="fl-left">
+                            <div style="margin: 15% 0;">
+                                <p class="txt-center">Estacione com segurança usando nossa função Parking.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-section-3" >
+
+                    <div class="div-section-3">
+                        <div class="card-section-3">
+                            <img src="images/celular4.svg" alt="Celular" class="fl-left">
+                            <div>
+                                <p class="txt-center">Receba um alerta se o seu veículo for usado fora do horário
+                                    autorizado.</p>
+                            </div>
+                        </div>
+                        <div class="card-section-3">
+                            <img src="images/celular1.svg" alt="Celular" class="fl-left">
+
+                            <div>
+                                <p class="txt-center">Independente da sua localização conte com a nossa central 24h.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="div-section-3">
+                        <div class="card-section-3">
+                            <img src="images/celular3.svg" alt="Celular" class="fl-left">
+                            <div>
+                                <p class="txt-center">Caso você viaje ou não esteja por perto, é possível bloquear o
+                                    veículo de forma prática, para que ninguém o use.</p>
+                            </div>
+                        </div>
+                        <div class="card-section-3">
+                            <img src="images/celular4.svg" alt="Celular" class="fl-left">
+                            <div>
+                                <p class="txt-center">Tenha controle sobre o seu veículo, como horário de circulação,
+                                    velocidade e região.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carrosel -->
+
+        <div class="glider-contain multiple carrosel">
+            <div class="glider">
+
+                <div>
+                    <div class="card-section-3 margin-carrosel">
+                        <img src="images/celular2.svg" alt="Celular" class="fl-left">
+                        <p class="txt-center">Em caso de desencontros nossa equipe de resgate está de prontidão para
+                            localizar seu veículo e trazer ele de volta, tendo 95% de taxa de recuperação com carro
+                            passeio.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="card-section-3 margin-carrosel">
                         <img src="images/celular3.svg" alt="Celular" class="fl-left">
-                        <div style="margin: 15% 0;">
-                            <p class="txt-center" >Estacione com segurança usando nossa função Parking.</p>
+                        <div>
+                            <p class="txt-center">Estacione com segurança usando nossa função Parking.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="div-section-3">
-                    <div class="card-section-3">
+                <div>
+                    <div class="card-section-3 margin-carrosel">
                         <img src="images/celular4.svg" alt="Celular" class="fl-left">
                         <div>
-                            <p class="txt-center">Receba um alerta se o seu veículo for usado fora do horário autorizado.</p>
+                            <p class="txt-center">Receba um alerta se o seu veículo for usado fora do horário
+                                autorizado.</p>
                         </div>
                     </div>
-                    <div class="card-section-3">
+                </div>
+
+                <div>
+                    <div class="card-section-3 margin-carrosel">
                         <img src="images/celular1.svg" alt="Celular" class="fl-left">
-                        
                         <div>
                             <p class="txt-center">Independente da sua localização conte com a nossa central 24h.</p>
                         </div>
                     </div>
                 </div>
-                <div class="div-section-3">
-                    <div class="card-section-3">
+
+
+                <div>
+                    <div class="card-section-3 margin-carrosel">
                         <img src="images/celular3.svg" alt="Celular" class="fl-left">
                         <div>
-                            <p class="txt-center">Caso você viaje ou não esteja por perto, é possível bloquear o veículo de forma prática, para que ninguém o use.</p>
+                            <p class="txt-center">Caso você viaje ou não esteja por perto, é possível bloquear o veículo
+                                de forma prática, para que ninguém o use.</p>
                         </div>
-                        
                     </div>
-                    <div class="card-section-3">
+                </div>
+
+
+                <div>
+                    <div class="card-section-3 margin-carrosel">
                         <img src="images/celular4.svg" alt="Celular" class="fl-left">
                         <div>
-                            <p class="txt-center">Tenha controle sobre o seu veículo, como horário de circulação, velocidade e região.</p>
+                            <p class="txt-center">Tenha controle sobre o seu veículo, como horário de circulação,
+                                velocidade e região.</p>
                         </div>
                     </div>
+                </div>
+
+            </div>
+
+
+            <button class="glider-next">
+                <!-- <i class="fas fa-chevron-right"></i> -->
+            </button>
+            <button class="glider-prev">
+                <!-- <i class="fas fa-chevron-left"></i> -->
+            </button>
+            <div role="tablist" class="dots"></div>
+        </div>
+    </section>
+
+    <!-- Section 4 -->
+
+    <section class="section-4">
+        <h1 class="txt-center" id="titulo-sec-4-desktop">Proteger seu veículo é simples e prático</h1>
+
+        <div class="div-section-4 txt-center">
+            <div>
+                <img src="images/caminhao3.svg" alt="Caminhão">
+                <p class="titulo-section-4">Instale o Rastreador</p>
+                <p>Disponibilizamos mais de 100 concessionárias automotivas para a instalação.</p>
+            </div>
+
+            <div>
+                <img src="images/celular5.svg" alt="Celular">
+                <p class="titulo-section-4">Baixe o app<p>
+                        <p>Disponível para iOS ou Android. Baixe o app, efetue o seu login e já saia controlando seu
+                            veículo.</p>
+            </div>
+
+            <div>
+                <img src="images/caminhao2.svg" alt="Caminhão" style="margin-top: -10px;">
+                <p class="titulo-section-4">Veículo rastreado<p>
+                        <p>Localize, controle e conte com nossa central 24h. </p>
+            </div>
+        </div>
+
+        <div class="div-button txt-center">
+            <div>
+                <a href="#formulario">
+                    <button class="button-contact">Fale com a gente</button>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Section 4 MOBILE  -->
+
+    <section class="section-4-mobile" style="display: none;">
+        <h1 class="primeiro-titulo-section-4"> Proteger seu veículo é simples e prático</h1>
+
+        <div>
+            <img class="fl-left" src="images/caminhao3.svg" alt="Caminhão" height="80">
+            <h1 class="titulo-service-mobile">Instale o Rastreador</h1>
+            <p>Disponibilizamos mais de 100 concessionárias automotivas para a instalação. </p>
+        </div>
+
+        <div style="margin-top: 120px;">
+            <img class="fl-left" src="images/celular5.svg" alt="Celular" height="80">
+            <h1 class="titulo-service-mobile">Baixe o app</h1>
+            <p>Disponível para iOS ou Android. Baixe o app, efetue o seu login e já saia controlando seu veículo.</p>
+        </div>
+
+        <div style="margin-top: 120px; margin-bottom: 100px;">
+            <img class="fl-left" src="images/caminhao2.svg" alt="Celular" height="80">
+            <h1 class="titulo-service-mobile">Veículo rastreado</h1>
+            <p>Veículo rastreado Localize, controle e conte com nossa central 24h.</p>
+        </div>
+
+        <div class="div-button txt-center">
+            <div>
+                <a href="#formulario">
+                    <button class="button-contact">Fale com a gente</button>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- SECTION 5 -->
+
+    <section class="section-5">
+
+        <h1 class="titulo-section-5 ">Referência no segmento</h1>
+        <p class="txt-center subtitulo-sec-5">Líder de mercado e de qualidade há 20 anos</p>
+        <p class="txt-center subtitulo-sec-5-mobile">Líder de mercado há 20 anos</p>
+
+        <div class="div-section-5 txt-center">
+            <div class="sub-div-section-5">
+                <div>
+                    <img class="fl-left" src="images/personagem1.png" alt="Personagem 1" height="70">
+                    <p class="paragrafo-1-section-5">"Se não fosse a Segsat, não tinha encontrado meu carro."</p>
+                    <p class="paragrafo-2-section-5"> <strong>Ulisses Pessoa </strong> - Cliente Segsat.</p>
+                </div>
+
+                <div>
+                    <img class="fl-left" src="images/personagem2.png" alt="Personagem 2" height="70">
+                    <p class="paragrafo-1-section-5">"O Serviço impecável. Profissionalismo exemplar. A Segsat é nota
+                        mil."</p>
+                    <p class="paragrafo-2-section-5"><strong>Maria Ângela </strong> - Cliente Segsat.</p>
+                </div>
+
+                <div>
+                    <img class="fl-left" src="images/personagem3.png" alt="Personagem 3" height="70">
+                    <p class="paragrafo-1-section-5">"Foi o dinheiro mais bem pago da minha vida."</p>
+                    <p class="paragrafo-2-section-5"><strong>Stanley Jordan </strong>- Cliente Segsat.</p>
+                </div>
+            </div>
+
+            <div class="div-2-section-5">
+                <p class="paragrafo-3-section-5">Instalação nas melhores concessionárias do país</p>
+                <div>
+                    <img src="images/concessionaria-1.jpg" alt="Logo - Concessionária" height="50">
+                    <img src="images/concessionaria-2.jpg" alt="Logo - Concessionária" height="50">
+                    <img src="images/concessionaria-3.jpg" alt="Logo - Concessionária" height="50">
+
+                    <img style="margin-top: 20px;" src="images/concessionaria-4.jpg" alt="Logo - Concessionária"
+                        height="50">
+                    <img src="images/concessionaria-5.jpg" alt="Logo - Concessionária" height="50">
+                    <img src="images/concessionaria-6.jpg" alt="Logo - Concessionária" height="50">
+
+                    <img style="margin-top: 20px;" src="images/concessionarias-7.jpg" alt="Logo - Concessionária"
+                        height="50">
+                    <img src="images/concessionaria-8.jpg" alt="Logo - Concessionária" height="50">
+                    <img src="images/concessionaria-9.jpg" alt="Logo - Concessionária" height="50">
+
+                    <img style="margin-top: 20px;" src="images/concessionaria-10.jpg" alt="Logo - Concessionária"
+                        height="50">
+                    <img src="images/concessionaria-11.jpg" alt="Logo - Concessionária" height="50">
+                    <img src="images/concessionaria-12.jpg" alt="Logo - Concessionária" height="50">
                 </div>
             </div>
         </div>
 
-        
+    </section>
+
+    <!-- SECTION 6 -->
+
+    <section class="section-6">
+        <h1 class="titulo-section-6">Preencha seus dados e <br> entraremos em contato com você</h1>
+
+        <div class="div-button txt-center">
+            <div>
+                <a href="#formulario">
+                    <button class="button-contact">Fale com a gente</button>
+                </a>
+            </div>
+        </div>
     </section>
 
 
+    <section class="section-7">
 
-
-
-
-    <!-- Section 3 -->
-
-    <div class="section-3-mobile">
-
-            <div>
-
-                <div id="coluna-esquerda" style="background-color: red;">
-
-                    <p>Central de Operações e  equipe de resgate integral</p>
-                    
-                    </div>
-                    <div id="coluna-direita" style="background-color: blue;">
-                    
-                        <p>Central de Operações e  equipe de resgate integral</p>
-                        <p>Central de Operações e  equipe de resgate integral</p>   
-                        <p>Central de Operações e  equipe de resgate integral</p>
-                    
-                    </div>
+        <div class="div-section-7" >
+            <div class="div-1-section-7">
+                <h1 class="txt-center titulo-section-7">Quanto custa</h1>
+                <div>
+                    <img class="fl-left img-preco-1" src="images/preco.svg" alt="Preço">
+                    <img class="fl-left img-preco-2" src="images/preco2.svg" alt="Preço">
+                    <p>No cartão de crédito ou no boleto para pessoa jurídica. </p>
+                </div>
             </div>
 
-    
-    <section>
-         <div></div>
-        <div></div>
+            <div class="div-2-section-7">
+                <h1 class="txt-center titulo-section-7">Segurança de
+                    forma prática e eficiente com <br> a empresa líder no mercado.</h1>
+                <div class="txt-center">
+                    <img src="images/logo-1.png" alt="Logo">
+                    <img src="images/logo-2.png" alt="Logo">
+                    <img src="images/logo-3.png" alt="Logo">
+                    <img src="images/logo-4.png" alt="Logo">
+                    <img src="images/logo-5.png" alt="Logo">
+                </div>
+            </div>
+        </div>
+
+        <div class="div-button txt-center" style="margin-bottom: 20px;">
+            <div>
+                <a href="#formulario">
+                    <button style="background-color: #0F50FB; color: #fff;" class="button-contact">Fale com a
+                        gente</button>
+                </a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="div-flex-section-7" style="display: flex; flex-direction: column;align-items: center;justify-content: center;">
+            <div class="div-2-section-7-2 txt-center" style="max-width: 400px;">
+                <h1 class="txt-center titulo-2-section-7">Concessionárias automotivas</h1>
+                <p>Instalação nas melhores <br> concessionárias do país</p>
+                <div>
+                    <img src="images/concessionaria-1.jpg" alt="Logo - Concessionária" height="40">
+                    <img src="images/concessionaria-2.jpg" alt="Logo - Concessionária" height="40">
+                    <img src="images/concessionaria-3.jpg" alt="Logo - Concessionária" height="40">
+
+                    <img style="margin-top: 20px;" src="images/concessionaria-4.jpg" alt="Logo - Concessionária"
+                        height="50">
+                    <img src="images/concessionaria-5.jpg" alt="Logo - Concessionária" height="40">
+                    <img src="images/concessionaria-6.jpg" alt="Logo - Concessionária" height="40">
+
+                    <img style="margin-top: 20px;" src="images/concessionarias-7.jpg" alt="Logo - Concessionária"
+                        height="50">
+                    <img src="images/concessionaria-8.jpg" alt="Logo - Concessionária" height="40">
+                    <img src="images/concessionaria-9.jpg" alt="Logo - Concessionária" height="40">
+
+                    <img style="margin-top: 20px;" src="images/concessionaria-10.jpg" alt="Logo - Concessionária"
+                        height="50">
+                    <img src="images/concessionaria-11.jpg" alt="Logo - Concessionária" height="40">
+                    <img src="images/concessionaria-12.jpg" alt="Logo - Concessionária" height="40">
+                </div>
+            </div>
+
+            <div class="div-3-section-7-2">
+                <h1 class="txt-center titulo-3-section-7">Segurança de forma prática e eficiente com a empresa líder
+                    no mercado.</h1>
+                <div class="txt-center">
+                    <img src="images/logo-1.png" alt="Logo">
+                    <img src="images/logo-2.png" alt="Logo">
+                    <img src="images/logo-3.png" alt="Logo">
+                    <img src="images/logo-4.png" alt="Logo">
+                    <img src="images/logo-5.png" alt="Logo">
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
     </section>
+
 
 
     <footer>
-
+        <div class="section-footer">
+            <div><img src="images/logo_segsat-2.svg" alt="Logo SEGSAT"></div>
+            <div>
+                <p>© 2020 | segsat. Todos os Direitos Reservados.</p>
+            </div>
+        </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
     <script src="js/script.js"></script>
+    <script src="js/glider.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Código de monitoramento -->
+    <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/0cbad7c8-3115-4601-bd87-475e75d6d3c5-loader.js" ></script>
 </body>
+
 </html>

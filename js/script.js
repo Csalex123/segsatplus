@@ -1,5 +1,15 @@
 $(document).ready(function(){
+	$('[data-toggle="tooltip"]').tooltip(); 
+});
+
+$(document).ready(function(){
 		$('#whatsapp').mask('(00) 0 0000-0000');
+
+		$("#form-envio").submit(function(event) {
+			event.preventDefault();
+			window.location.href="formulario-enviado.html";
+
+		  });
 
 		carregar_json('Estado');
 		function carregar_json(id, cidade_id){
