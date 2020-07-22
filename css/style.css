@@ -256,23 +256,6 @@ select:invalid {
     margin: 6% 0 2% 0;
 }
 
-@media(max-width: 500px){
-    section-service {
-        margin: 8% 0 4% 0;
-    } 
-}
-
-@media(max-width: 500px) {
-    .section-service {
-        padding: 0;
-    }
-}
-
-@media(min-width: 1400px) {
-    .section-service {
-        padding: 0 8%;
-    }
-}
 
 .service__b{
     margin: 8% 0 0 0;
